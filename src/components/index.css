@@ -1,0 +1,124 @@
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  background-color: burlywood;
+  color: white;
+  border-radius: 10px;
+}
+
+.store_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  flex-grow: 1;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  width: 40%;
+  padding: 10px;
+  text-align: justify;
+}
+
+.details {
+  color: rgb(231, 153, 89);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.category_list {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  border-radius: 5px;
+  background-color: khaki;
+  line-height: 1.5;
+}
+
+.title {
+  font-family: monospace;
+  text-decoration: underline;
+  color: rgb(49, 111, 226);
+  cursor: pointer;
+}
+
+.price_button {
+  width: 98%;
+  margin: 10px;
+  padding: 5px 0;
+  text-align: center;
+  font-weight: 600;
+  background-color: chocolate;
+  color: white;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  border-radius: 5px;
+}
+
+.detail_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  border-radius: 5px;
+  margin: 20px;
+  position: relative;
+}
+
+.description {
+  height: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title_details {
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cart_number {
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  width: 4px;
+  padding: 2px;
+}
+
+.cart_box {
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  border-radius: 5px;
+  height: 200px;
+  width: 80%;
+  margin: 10px 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid rgb(212, 106, 106);
+}
+
+.cart_total {
+  bottom: 0px;
+  width: 80vw;
+  padding: 10px;
+  text-align: ri;
+  background-color: rgb(212, 106, 106);
+  color: white;
+}
+
+.cancel {
+  font-size: 11px;
+  background-color: palegoldenrod;
+  padding: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
